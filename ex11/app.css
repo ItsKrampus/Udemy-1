@@ -1,0 +1,7 @@
+div :nth-child(odd){
+    background-color: red;
+}
+
+div :nth-child(2n){
+    background-color: black;
+}
