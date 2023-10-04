@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container "  id="container" >
+    
+    <div id="mainsec" class="shadow mt-5 rounded">
+        <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80" alt="">
+        <p id="title">Ping Pong Score Keeper</p>
+          
+
+       
+
+        <h1 id="score">0 to 0</h1>
+        <p id="instructions">Use buttons below to keep the score.</p>
+        <div id="scorecount" >
+            <h5><b>Playing to :</b></h5>
+            <div class="form-floating" id="scoreselector" >
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>0</option>
+                  <option value="1">3</option>
+                  <option value="2">6</option>
+                  <option value="3">11</option>
+                </select>
+              </div>
+        </div>
+        <div class="row  w-100 m-0">
+            <button class=" rounded col bg-success border-0"  id="player1"> +1 Player One</button>
+            <button class="rounded col bg-primary border-0" id="player2">+1 Player Two</button>
+            <button class="rounded col bg-danger border-0" id="reset" >Reset</button>
+        </div>
+    
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
