@@ -1,0 +1,41 @@
+img{
+    width: 500px;
+    height: 400px;
+    margin-bottom: none;
+}
+section{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+#instructions{
+    margin-bottom: 1.5rem;
+}
+#score{
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+#title{
+    border-bottom: 1px solid gray;
+    margin-bottom: 0px;
+    
+}
+
+#mainsec{
+    border: 1px solid gray;
+    border-top: none;
+}
+
+#floatingSelect{
+padding: 0px;
+height: 25px;
+line-height: 1;
+width: 4em;
+}
+
+#scorecount{
+    display: inline-flex
+}
+button{
+    color: white;
+}
