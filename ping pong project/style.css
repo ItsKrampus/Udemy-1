@@ -39,3 +39,20 @@ width: 4em;
 button{
     color: white;
 }
+
+
+
+#player1score.win{
+    color: green;
+}
+
+#player1score.lose{
+    color: red;
+}
+#player2score.win{
+    color: green;
+}
+
+#player2score.lose{
+    color: red;
+}
