@@ -1,58 +1,66 @@
-img{
-    width: 500px;
-    height: 400px;
-    margin-bottom: none;
+img {
+  width: 500px;
+  height: 400px;
+  margin-bottom: none;
 }
-section{
-    display:grid;
-    align-items: center;
-    justify-content: center;
+section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
-#instructions{
-    margin-bottom: 1.5rem;
+#instructions {
+  margin-bottom: 1.5rem;
 }
-#score{
-    margin-bottom: 0;
-    margin-top: 1rem;
+#score {
+  margin-bottom: 0;
+  margin-top: 1rem;
 }
-#title{
-    border-bottom: 1px solid gray;
-    margin-bottom: 0px;
-    
-}
-
-#mainsec{
-    border: 1px solid gray;
-    border-top: none;
+#title {
+  border-bottom: 1px solid gray;
+  margin-bottom: 0px;
 }
 
-#floatingSelect{
-padding: 0px;
-height: 25px;
-line-height: 1;
-width: 4em;
+#mainsec {
+  border: 1px solid gray;
+  border-top: none;
 }
 
-#scorecount{
-    display: inline-flex
-}
-button{
-    color: white;
-}
-
-
-
-#player1score.win{
-    color: green;
+#floatingSelect {
+  padding: 0px;
+  height: 25px;
+  line-height: 1;
+  width: 4em;
 }
 
-#player1score.lose{
-    color: red;
+#scorecount {
+  display: inline-flex;
 }
-#player2score.win{
-    color: green;
+button {
+  color: white;
 }
 
-#player2score.lose{
-    color: red;
+#player1score.win {
+  color: green;
+}
+
+#player1score.lose {
+  color: red;
+}
+#player2score.win {
+  color: green;
+}
+
+#player2score.lose {
+  color: red;
+}
+
+#player1:disabled {
+  background-color: #ccc;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+#player2:disabled {
+  background-color: #ccc;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
