@@ -1,0 +1,15 @@
+h1{
+    display: flex;
+justify-content: center;
+background-color: white;
+border: solid 3px black;
+border-radius: 10px;
+width:30%;
+font-weight: 300;
+margin-top: 25%;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
