@@ -12,7 +12,6 @@ button.addEventListener("click", async (event)=>{
   console.log(data)
   
   for (const movie of data) {
-    console.log(movie.show.image.medium)
     const movieImg=document.createElement("img")
     movieImg.classList.add("col-2")
     movieImg.classList.add("m-auto")
