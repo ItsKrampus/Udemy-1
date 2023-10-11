@@ -1,0 +1,11 @@
+#container{
+    display:block;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+#jokebtn{
+    margin-top: 10px;
+    margin-left: 47%;
+}
