@@ -12,6 +12,13 @@ app.get("/", (req, res)=>{
 })
 
 
+app.get('/cats',(req,res)=>{
+    const cats=[
+        'Mimi','Kaka','Monty','Winston','Blue'
+    ]
+    res.render('cats',{allCats: cats})
+})
+
 app.get('/r/:subreddit',(req,res)=>{
     const {subreddit}= req.params;
     res.render('subreddit',{subreddit})
