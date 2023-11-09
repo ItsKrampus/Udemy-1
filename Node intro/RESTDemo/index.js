@@ -38,6 +38,15 @@ let comments = [
     }
 ];
 
+app.patch('/comments/id',(req,res)=>{
+    const {id}=req.params;
+    const newComment=req.body.comment;
+    const foundComment= comments.find(c=>c.id===id)
+    foundComment.comment=newComment;
+    res.redirect('/comments')
+})
+
+
 
 app.get('/comments',(req,res)=>{
     res.render('comments/index',{comments})
