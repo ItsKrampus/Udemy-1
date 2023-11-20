@@ -8,8 +8,13 @@
 <body>
     <h1><%= product.name %></h1>
     <li>Price: $<%= product.price  %></li>
-    <li>Category: <%= product.category %></li>
+    <li>Category: <a href="/products?category=<%= product.category %>"><%= product.category  %></a></li>
     <a href="/products">All Products</a>
     <a href="/products/<%= product._id %>/edit">Edit Product</a>
+</form>
+<form method="POST"  action="/products/<%=product.id %>?_method=DELETE">
+    <button>Delete!</button>
+</form>
+
 </body>
 </html>
